@@ -1,5 +1,5 @@
-The .mat files in each folder consist of the data collected directly from measurement: probe force, probe displacement and scan plane RF data. 
-Each folder has the following .mat files. Our naming convention refers to the bmode image, however we note the provided data file is the RF echo frames. 
+The .mat files in each folder consist of the data collected directly from experimental measurements: probe force, probe displacement and scan plane RF data. 
+Each folder has the following .mat files. Our naming convention refers to the bmode image, however we note the provided data are the RF echo frames. 
 
 all_bmode.mat: 
 	Contains: 
@@ -9,7 +9,7 @@ bmode_image_axes_mm.mat:
 	Contains: 
 		-> bmode_axial_vec: Axial axis of size 1xN, where N is the axial samples. Units are in mm. bmode_axial_vec(1) is the top of the phantom. bmode_axial_vec(end) is the bottom. 
 		-> bmode_lateral_vec: Lateral axis of size 1xM, where M is the lateral samples. Units are in mm. bmode_lateral_vec(1) is the left side of the phantom. bmode_lateral_vec(end) is the right side. 
-	Details: When registering the image axes from US to Abaqus, we center each axis on 0 such that the center of the phantom represents the origin (0,0).    
+	Details: When registering the image axes from US to Abaqus, we center each axis around 0 such that the center of the phantom represents the origin (0,0).    
 
 bmode_image_parameters.mat: 
 	Contains: 
