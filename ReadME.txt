@@ -1,3 +1,5 @@
+Please contact willn2@illinois.edu with questions or requests for additional data. 
+
 The .mat files in each folder consist of the data collected directly from experimental measurements: probe force, probe displacement and scan plane RF data. 
 Each folder has the following .mat files. Our naming convention refers to the bmode image, however we note the provided data are the RF echo frames. 
 
